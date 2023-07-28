@@ -62,7 +62,7 @@ class AddOrderActivity : AppCompatActivity() {
         }
 
         binding.sizeLarge.setOnClickListener {
-            selectedCoffe.updateCoffeSize(CoffeSize.MEDIUM)
+            selectedCoffe.updateCoffeSize(CoffeSize.LARGE)
             updateUiElements()
         }
     }
